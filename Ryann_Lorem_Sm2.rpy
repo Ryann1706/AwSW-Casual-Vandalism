@@ -19,5 +19,6 @@ menu:
             show lorem think with dissolve
             lo "Or, for whatever other reason you're obbsesed with smashing windows."
             lo "Anyway lets get back on track before you bring the walls and ceiling down too."
+            lo "..."
 
 jump Ryann_Lorem_WSmash2_end
