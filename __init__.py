@@ -43,7 +43,7 @@ class AWSWMod(Mod):
        ml.find_label("lorem3") \
         .search_say("Sure.") \
         .hook_to("Ryann_Lorem_WSmash2", condition="WindowSmashed == True") \
-        .search_say("Lorem flew up to the light fixtures to get a view from above while I checked out the shelves.") \
+        .search_say("I remember when we could still shop here.") \
         .link_from("jump Ryann_Lorem_WSmash2_end") 
 
     def mod_complete(self):
