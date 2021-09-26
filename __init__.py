@@ -36,14 +36,14 @@ class AWSWMod(Mod):
     
        ml.find_label("c4resultscontinue") \
         .search_say("Loud bangs were heard from the area her body was found, and she has numerous wounds consistent with both the wounds of the previous victims and that other weapon he has.") \
-        .hook_to("Ryann_Lorem_Comments", condition="WindowSmashed == True") \
+        .hook_to("Ryann_Lorem_Comments", condition="WindowSmashed == True") 
         .search_say("A hatchery? Is that what this building is?") \
         .link_from("Ryann_Lorem_Coms_end") 
         
        ml.find_label("lorem3") \
         .search_say("Sure.") \
-        .hook_to("Ryann_Lorem_WSmash2", condition="WindowSmashed == True") \
-        .search_say("Have you found anything yet?") \
+        .hook_to("Ryann_Lorem_WSmash2", condition="WindowSmashed == True") 
+        .search_say("I nearly got sent back, by the way.") \
         .link_from("jump Ryann_Lorem_WSmash2_end") 
 
     def mod_complete(self):
