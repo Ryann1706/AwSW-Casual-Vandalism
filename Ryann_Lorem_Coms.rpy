@@ -3,7 +3,7 @@ label Ryann_Lorem_Comments:
 
 # Theres probely a cleaner or more efficent way to do this, but I dont know it, but it works so whatever
 
-if WindowSmashed = True:
+if WindowSmashed == True:
       Br "There was also a window broken."
       Br "Now [player_name], did Reza actually break this window to get in, or...?"
       c "It was one time..."
