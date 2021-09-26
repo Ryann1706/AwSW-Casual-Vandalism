@@ -36,7 +36,7 @@ class AWSWMod(Mod):
         .search_say("Loud bangs were heard from the area her body was found, and she has numerous wounds consistent with both the wounds of the previous victims and that other weapon he has.") \
         .hook_to("Ryann_Lorem_Comments", condition="WindowSmashed == True") \
         .search_say("A hatchery? Is that what this building is?") \
-        .link_from("jump Ryann_Lorem_Coms_end") 
+        .link_from("Ryann_Lorem_Coms_end") 
 
     def mod_complete(self):
         pass
