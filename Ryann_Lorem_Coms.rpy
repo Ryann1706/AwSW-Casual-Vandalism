@@ -16,4 +16,4 @@ if WindowSmashed == True:
       jump Ryann_Lorem_Coms_end
 
 else:
-    pass
+    jump Ryann_Lorem_Coms_end
