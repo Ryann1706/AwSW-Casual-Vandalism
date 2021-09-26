@@ -3,8 +3,10 @@ from modloader.modclass import Mod, loadable_mod
 
 @loadable_mod
 class AWSWMod(Mod):
-    def mod_info(self):
-        return ("Casual Vandalism", "1.0", "Ryann1706")
+    name="Casual Vandalism"
+    version="v1.0"
+    author="Ryann1706"
+    nsfw=False
 
     def mod_load(self):
        ml = modinfo.get_mods()["MagmaLink"].import_ml()
