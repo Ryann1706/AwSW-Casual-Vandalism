@@ -13,6 +13,8 @@ menu:
      "[[Leave the brick.]":
                 "I decided to ignore it and continue walking."
                 $ HasBrick = False 
+                $ WindowSmashed = False
+                $ WindowsSmashed2 = False
                 
 scene black with fade
 
