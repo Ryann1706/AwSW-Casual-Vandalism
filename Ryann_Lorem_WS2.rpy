@@ -3,14 +3,14 @@ label Ryann_Lorem_WSmash2:
 
      m "Upon entering the store I realised that most of the windows were either missing or mostly broken."
      m "Except one."
-     m "And with this store falling apart it would be that hart to find something to smash it with..."
+     m "And with this store falling apart it wouldnt be that hard to find something to smash it with..."
      menu:
           "[[Do nothing]":
                 m "But I decided that ive learned from my past mistakes and grown as a person."
 
           "[[Smash the window... again.]":
                 $ WindowsSmashed2 = True
-                m "I didnt take longh to find a peice of rubble small enough to throw."
+                m "It didnt take long to find a piece of rubble small enough to throw."
                 play sound "fx/glassimpact2.ogg"
                 show lorem relieved with dissolve
                 Lo "Really...? Again?"
