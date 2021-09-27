@@ -46,6 +46,11 @@ class AWSWMod(Mod):
         .search_say("A hatchery? Is that what this building is?") \
         .link_from("Ryann_Lorem_Coms_end") 
        
+       ml.find_label("lorem4") \
+        .search_say("So this is where you live.") \
+        .hook_to("Ryann_Lorem_LoremComment", condition="WindowsSmashed2 == True") \
+        .search_say("You already got a glimpse when you delivered Reza's letter, remember?") \
+        .link_from("jump Ryann_Lorem_LoremComment_end")
 
     def mod_complete(self):
         pass
