@@ -1,5 +1,5 @@
  
- label Ryann_Lorem_LoremComment:
+label Ryann_Lorem_LoremComment:
 
     Lo "Glad to see all your windows are still in one peice."
     c "Very funny Lorem..."
