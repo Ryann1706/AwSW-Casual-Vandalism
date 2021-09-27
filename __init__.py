@@ -4,7 +4,7 @@ from modloader.modclass import Mod, loadable_mod
 @loadable_mod
 class AWSWMod(Mod):
     name="Casual Vandalism"
-    version="v1.0"
+    version="v1.1"
     author="Ryann1706"
     nsfw=False
 
