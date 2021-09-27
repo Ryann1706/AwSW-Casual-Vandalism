@@ -7,4 +7,5 @@ $ WindowSmashed = False
 # If Lorem has a brick
 # Was gonna have a line about Lorem saying he lost it at the store later in his date
 $ LoremHasBrick = False 
-
+# If you smashed 2 Windows
+$ WindowsSmashed2 = False
