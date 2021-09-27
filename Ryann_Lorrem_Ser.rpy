@@ -5,6 +5,7 @@ if HasBrick == True:
  m "I suddenly I remembered about the brick I'd gotten earlier." 
  menu:
      "[[Do nothing.]":
+               $ WindowSmashed = False
                m "Then I realised smashing a window with a brick wouldnt be my smartest idea."
                jump Ryann_Lorem_NormalWindow
 
@@ -70,5 +71,6 @@ if HasBrick == True:
  jump Ryann_Lorem_Ser_end
 
 else:
+ $ WindowSmashed = False
  m "I looked for a few more seconds before remembering what I was doing."
  jump Ryann_Lorem_NormalWindow
