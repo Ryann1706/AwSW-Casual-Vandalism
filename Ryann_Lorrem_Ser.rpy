@@ -6,6 +6,7 @@ if HasBrick == True:
  menu:
      "[[Do nothing.]":
                $ WindowSmashed = False
+               $ WindowsSmashed2 = False
                m "Then I realised smashing a window with a brick wouldnt be my smartest idea."
                jump Ryann_Lorem_NormalWindow
 
