@@ -34,7 +34,7 @@ class AWSWMod(Mod):
         .search_say("Did you find anything?") \
         .hook_to("Ryann_Lorem_LoremBrick", condition="HasBrick == True")
     
-       ml.find_label("lorem3") \
+       ml.find_label("lorem3searchmenu") \
         .search_say("Let's just look for the X.") \
         .hook_to("Ryann_Lorem_WSmash2", condition="WindowSmashed == True") \
         .search_say("I nearly got sent back, by the way.") \
