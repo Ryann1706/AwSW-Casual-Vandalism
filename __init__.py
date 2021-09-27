@@ -37,7 +37,7 @@ class AWSWMod(Mod):
        ml.find_label("lorem3searchmenu") \
         .search_say("Let's just look for the X.", depth=500) \
         .hook_to("Ryann_Lorem_WSmash2", condition="WindowSmashed == True") \
-        .search_say("I nearly got sent back, by the way.") \
+        .search_say("I nearly got sent back, by the way.", depth=500) \
         .link_from("jump Ryann_Lorem_WSmash2_end") 
     
        ml.find_label("c4resultscontinue") \
