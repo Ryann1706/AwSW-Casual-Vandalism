@@ -73,5 +73,6 @@ if HasBrick == True:
 
 else:
  $ WindowSmashed = False
+ $ WindowsSmashed2 = False
  m "I looked for a few more seconds before remembering what I was doing."
  jump Ryann_Lorem_NormalWindow
