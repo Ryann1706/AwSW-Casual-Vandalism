@@ -38,7 +38,7 @@ class AWSWMod(Mod):
         .search_say("Let's just look for the X.", depth=500) \
         .hook_to("Ryann_Lorem_WSmash2", condition="WindowSmashed == True") \
         .search_say("I nearly got sent back, by the way.", depth=900) \
-        .link_from("jump Ryann_Lorem_WSmash2_end") 
+        .link_from("Ryann_Lorem_WSmash2_end") 
     
        ml.find_label("c4resultscontinue") \
         .search_say("Loud bangs were heard from the area her body was found, and she has numerous wounds consistent with both the wounds of the previous victims and that other weapon he has.") \
