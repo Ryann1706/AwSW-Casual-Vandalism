@@ -6,7 +6,7 @@ label Ryann_Lorem_WSmash2:
      m "And with this store falling apart it wouldnt be that hard to find something to smash it with..."
      menu:
           "[[Do nothing]":
-                m "But I decided that ive learned from my past mistakes and grown as a person."
+                m "But I decided that I've learned from my past mistakes and grown as a person."
 
           "[[Smash the window... again.]":
                 $ WindowsSmashed2 = True
