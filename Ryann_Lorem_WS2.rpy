@@ -3,7 +3,7 @@ label Ryann_Lorem_WSmash2:
 
      m "Upon entering the store I realised that most of the windows were either missing or mostly broken."
      m "Except one."
-     m "And with this store falling apart it wouldnt be that hard to find something to smash it with..."
+     m "And with this store falling apart it wouldn't be that hard to find something to smash it with..."
      menu:
           "[[Do nothing]":
                 $ WindowsSmashed2 = False
@@ -13,6 +13,7 @@ label Ryann_Lorem_WSmash2:
                 $ WindowsSmashed2 = True
                 m "It didnt take long to find a piece of rubble small enough to throw."
                 play sound "fx/glassimpact2.ogg"
+                $ renpy.pause (0.5)
                 show lorem relieved with dissolve
                 Lo "Really...? Again?"
                 c "Well, no one owns it this time."

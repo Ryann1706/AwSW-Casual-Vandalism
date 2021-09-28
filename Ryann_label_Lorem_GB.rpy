@@ -1,4 +1,7 @@
 
+label Ryann_Lorem_Skipchange:
+     jump Ryann_Lorem_Skipchange_end
+
 label Ryann_Lorem_GetBrick:
 scene np2x at Pan ((0, 0), (0, 360), 8.0) with dissolveslow
 play sound "fx/steps/clean2.wav"
