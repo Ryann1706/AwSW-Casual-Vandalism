@@ -21,22 +21,22 @@ if HasBrick == True:
                Lo "Wait... {w}Did you do that?"
                c "Yeah..."
                Lo relieved "But... Why? Why did you just smash some random window?"
-               c "I dont know... Just felt like it, I guess..."
+               c "I don't know... Just felt like it, I guess..."
                Lo "But why would you..."
-               m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a few seconds."
+               m "Lorem, at a loss for words, stared back and forward between me and the broken window in stunned bewilderment for a decent amount of time."
                show lorem relieved at right with move
                show sebastian normal b flip at Position (xpos = 0.05) with easeinleft
                Sb "[player_name], there you are, where's Reza?"
                c "Uh... What do you mean?"
                Sb "We got a call about a human from this building."
                Sb "So we assumed it was Reza and ran here immedediately."
-               m "Bryce rounded the and looked around, confused."
+               m "Bryce rounded the corner and looked around, confused."
                show bryce brow b flip at Position (xpos = 0.2) behind sebastian
                with easeinleft
                Br "Where's Reza?"
                Br "Also, [player_name], what are you doing here?"
                c "Reza's not here."
-               Br "But we got a call about a human who broke a window, and I'm assuming it's him."
+               Br "But we got a call about a human who broke a window, and I'm assuming it's that window right there."
                m "He guestured towards the building with the window I had smashed."
                m "I only then noticed a dragon on the other side who had a distraught look on their face."
                Br "But if Reza's not here, then who...?"
