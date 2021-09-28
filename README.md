@@ -12,3 +12,5 @@ Also in this new, (and slightly) improved version, you can smash a second window
 This needs Magmalink to work, which can be found here: https://gitlab.com/jakzie2/awsw-magmalink
 
 Also huge thanks to Jakzie for their help, they're the reason this actually works and isnt just error screen after error screen.
+
+Also thanks to Eval for helping me find and fix bugs.
