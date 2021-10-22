@@ -12,12 +12,6 @@ class AWSWMod(Mod):
         ml = modinfo.get_mods()["MagmaLink"].import_ml()
 
         ml.find_label("lorem3") \
-            .search_with("dissolve") \
-            .hook_to("Ryann_Lorem_Skipchange") \
-            .search_play("mx/sprite.ogg") \
-            .link_from("Ryann_Lorem_Skipchange_end")
-
-        ml.find_label("lorem3") \
             .search_say("Let's go, then.") \
             .hook_to("Ryann_Lorem_GetBrick") \
             .search_say("Here we are. The X on the map is right between these two buildings, so it must be around here somewhere.") \
@@ -45,6 +39,12 @@ class AWSWMod(Mod):
             .hook_to("Ryann_Lorem_WSmash2", condition="WindowSmashed == True") \
             .search_say("I nearly got sent back, by the way.", depth=600) \
             .link_from("Ryann_Lorem_WSmash2_end") 
+        
+        ml.find_label("lorem3skip") \
+            .search_say("Alright, let's go.") \
+            .hook_to("Ryann_Lorem_LoBrivkLose", condition="LoremHasBrick == True") \
+            .search_say("Do you want to pick up some pizza on the way home?") \
+            .link_from("Ryann_Lorem_LoBrivkLose_end")
         
         ml.find_label("c4resultscontinue") \
             .search_say("Loud bangs were heard from the area her body was found, and she has numerous wounds consistent with both the wounds of the previous victims and that other weapon he has.") \
