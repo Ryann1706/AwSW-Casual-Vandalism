@@ -24,3 +24,17 @@ label Ryann_Lorem_WSmash2:
                 Lo "..."
 
 jump Ryann_Lorem_WSmash2_end
+
+
+
+label Ryann_Lorem_LoBrivkLose:
+
+Lo think "Wait a second..."
+c "What is it?"
+Lo relieved "Oh, I must have lost the brick you gave me in the store."
+Lo think "It might have been when that shelf fell on me."
+Lo sad "Uh, sorry about that [player_name]..."
+c "It's alright Lorem, I was messing with you when I gave it to you, I dont really care you lost it."
+Lo normal "Alright, I'll admit it, you got me good with that, {w}anyway."
+
+jump Ryann_Lorem_LoBrivkLose_end
