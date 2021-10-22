@@ -29,6 +29,7 @@ jump Ryann_Lorem_WSmash2_end
 
 label Ryann_Lorem_LoBrivkLose:
 
+$ LoremHasBrick = False
 Lo think "Wait a second..."
 c "What is it?"
 Lo relieved "Oh, I must have lost the brick you gave me in the store."
