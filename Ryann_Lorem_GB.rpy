@@ -9,7 +9,7 @@ menu:
     "[[Take the brick.]":
         play sound "fx/rocks1.ogg"
         m "I picked up the brick off the ground and stashed it under my clothes."
-        $ HasBrick = True
+        $ ryannhasbrick = True
 
     "[[Leave the brick.]":
         "I decided to ignore it and continue walking."
