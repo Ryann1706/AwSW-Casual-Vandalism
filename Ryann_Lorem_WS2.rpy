@@ -6,11 +6,10 @@ label Ryann_Lorem_WSmash2:
      m "And with this store falling apart it wouldn't be that hard to find something to smash it with..."
      menu:
           "[[Do nothing]":
-                $ WindowsSmashed2 = False
                 m "But I decided that I've learned from my past mistakes and grown as a person."
 
           "[[Smash the window... again.]":
-                $ WindowsSmashed2 = True
+                $ ryannwindowssmashed +=1
                 m "It didnt take long to find a piece of rubble small enough to throw."
                 play sound "fx/glassimpact2.ogg"
                 $ renpy.pause (0.5)
@@ -21,7 +20,8 @@ label Ryann_Lorem_WSmash2:
                 show lorem think with dissolve
                 Lo "Or, for whatever other reason you're obbsesed with smashing windows."
                 Lo "Anyway lets get back on track before you bring the walls and ceiling down too."
-                Lo "..."
+                
+     Lo "..."
 
 jump Ryann_Lorem_WSmash2_end
 
@@ -29,7 +29,6 @@ jump Ryann_Lorem_WSmash2_end
 
 label Ryann_Lorem_LoBrivkLose:
 
-$ LoremHasBrick = False
 Lo think "Wait a second..."
 c "What is it?"
 Lo relieved "Oh, I must have lost the brick you gave me in the store."
