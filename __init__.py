@@ -32,29 +32,29 @@ class AWSWMod(Mod):
         ml.find_label("lorem3") \
             .search_menu("Look inside the windows.").branch() \
             .search_say("Did you find anything?") \
-            .hook_to("Ryann_Lorem_LoremBrick", condition="HasBrick == True")
+            .hook_to("Ryann_Lorem_LoremBrick", condition="ryannhasbrick == True")
         
         ml.find_label("lorem3searchmenu") \
             .search_say("Let's just look for the X.", depth=500) \
-            .hook_to("Ryann_Lorem_WSmash2", condition="WindowSmashed == True") \
+            .hook_to("Ryann_Lorem_WSmash2", condition="ryannwindowssmashed > 0") \
             .search_say("I nearly got sent back, by the way.", depth=600) \
             .link_from("Ryann_Lorem_WSmash2_end") 
         
         ml.find_label("lorem3skip") \
             .search_say("Alright, let's go.") \
-            .hook_to("Ryann_Lorem_LoBrivkLose", condition="LoremHasBrick == True") \
+            .hook_to("Ryann_Lorem_LoBrivkLose", condition="ryannlorembrick == True") \
             .search_say("Do you want to pick up some pizza on the way home?") \
             .link_from("Ryann_Lorem_LoBrivkLose_end")
         
         ml.find_label("c4resultscontinue") \
             .search_say("Loud bangs were heard from the area her body was found, and she has numerous wounds consistent with both the wounds of the previous victims and that other weapon he has.") \
-            .hook_to("Ryann_Lorem_Comments", condition="WindowSmashed == True") \
+            .hook_to("Ryann_Lorem_Comments", condition="ryannwindowssmashed > 0") \
             .search_say("A hatchery? Is that what this building is?") \
             .link_from("Ryann_Lorem_Coms_end") 
         
         ml.find_label("lorem4") \
             .search_say("So this is where you live.") \
-            .hook_to("Ryann_Lorem_LoremComment", condition="WindowsSmashed2 == True") \
+            .hook_to("Ryann_Lorem_LoremComment", condition="ryannwindowssmashed == 2") \
             .search_say("You already got a glimpse when you delivered Reza's letter, remember?") \
             .link_from("Ryann_Lorem_LoremComment_end")
 
