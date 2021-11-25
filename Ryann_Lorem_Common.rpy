@@ -1,6 +1,5 @@
 
 init python:
-    HasBrick = False
-    WindowSmashed = False
-    LoremHasBrick = False 
-    WindowsSmashed2 = False
+    ryannhasbrick = False
+    ryannwindowssmashed = 0
+    ryannlorembrick = False 
