@@ -2,7 +2,7 @@
 
 label Ryann_Lorem_Search:
 m "I looked at the window and took a moment to appreciate how unbroken it was."
-if HasBrick == True: 
+if ryannhasbrick == True: 
  m "I suddenly remembered the brick I'd picked up earlier." 
  menu:
     "[[Do nothing.]":
@@ -10,8 +10,8 @@ if HasBrick == True:
         jump Ryann_Lorem_NormalWindow
 
     "[[Smash the window.]":
-        $ HasBrick = False
-        $ WindowSmashed = True
+        $ ryannhasbrick = False
+        $ ryannwindowssmashed += 1
         play sound "fx/glassimpact2.ogg"
         m "I threw the brick I had through the window."
         show lorem think with dissolve
@@ -57,10 +57,9 @@ if HasBrick == True:
         hide sebastian with easeoutright
         m "I felt like I was a child who'd just gotten caught doing something they shouldn't have."
         Lo sad "Uh... Let's just forget about that and get back to what we were doing..."
-        c "Yeah..."
-        Lo "Also, did you actually find anything here?"
 
- jump Ryann_Lorem_Ser_end
+        $ lorem3windows = True
+        jump lorem3searchmenu
 
 else:
     m "I looked for a few more seconds before remembering what I was doing."
@@ -71,7 +70,7 @@ else:
 
 label Ryann_Lorem_LoremBrick:
 
-if HasBrick == True:
+if ryannhasbrick == True:
     Lo think "Wait, why do you have a brick?"
     menu:
         "I was going to smash the window.":
@@ -81,7 +80,7 @@ if HasBrick == True:
             Lo normal "Oh, good. I thought you weren't for a second there."
             Lo "Anyway lets keep looking."
             m "I dropped the brick on the ground and went to help Lorem search."
-            $ HasBrick = False
+            $ ryannhasbrick = False
 
         "Its a gift for you.":
             Lo think "You got me a... brick?"
@@ -90,21 +89,21 @@ if HasBrick == True:
                 "Yes.":
                     c "Yes, it does."
                     Lo "Oh, um... Thank you then."
-                    $ HasBrick = False
-                    $ LoremHasBrick = True
+                    $ ryannhasbrick = False
+                    $ ryannlorembrick = True
 
                 "No.":
                     c "No not really."
                     Lo "Uhm... Ok then..."
                     c "(Why did I even take this in the first place?)"
-                    $ HasBrick = False
+                    $ ryannhasbrick = False
 
         "I dont know.":
             c "I dont really know, I just saw it so I picked it up."
             Lo "That's..."
             Lo "Well, im pretty sure you wont need it so you can just get rid of it."
             c "Alright."
-            $ HasBrick = False
+            $ ryannhasbrick = False
 
     $ lorem3windows = True
     jump lorem3searchmenu
