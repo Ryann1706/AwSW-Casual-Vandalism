@@ -18,7 +18,7 @@ label Ryann_Lorem_WSmash2:
                 c "Well, no one owns it this time."
                 Lo "Well yeah, but still, there has to be a better way for you to vent your frustrations."
                 show lorem think with dissolve
-                Lo "Or, for whatever other reason you're obbsesed with smashing windows."
+                Lo "Or, for whatever other reason you're obsesed with smashing windows."
                 Lo "Anyway lets get back on track before you bring the walls and ceiling down too."
                 
      Lo "..."
