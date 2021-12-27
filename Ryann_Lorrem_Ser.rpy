@@ -47,7 +47,7 @@ if ryannhasbrick == True:
         Lo think "Wait, whats going on with Reza?"
         Sb "Nothing for you to worry about."
         Br "Sebastian, clear everything up here, I'll head back to the station."
-        Sb normal b flip "Got it Cheif."
+        Sb normal b flip "Got it Chief."
         Br "You two go back to whatever you were doing. [player_name], you better not do anything stupid."
         $ renpy.pause (0.5)  
         show bryce brow b old
@@ -76,11 +76,11 @@ if ryannhasbrick == True:
             Lo relieved "Seriously?"
             c "No, I was joking."
             Lo normal "Oh, good. I thought you weren't for a second there."
-            Lo "Anyway lets keep looking."
+            Lo "Anyway let's keep looking."
             m "I dropped the brick on the ground and went to help Lorem search."
             $ ryannhasbrick = False
 
-        "Its a gift for you.":
+        "It's a gift for you.":
             Lo think "You got me a... brick?"
             Lo "Does this have some kind of meaning for humans?"
             menu:
@@ -99,7 +99,7 @@ if ryannhasbrick == True:
         "I dont know.":
             c "I dont really know, I just saw it so I picked it up."
             Lo "That's..."
-            Lo "Well, im pretty sure you wont need it so you can just get rid of it."
+            Lo "Well, I'm pretty sure you wont need it so you can just get rid of it."
             c "Alright."
             $ ryannhasbrick = False
 
