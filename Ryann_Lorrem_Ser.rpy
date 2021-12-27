@@ -66,8 +66,6 @@ else:
     jump Ryann_Lorem_NormalWindow
 
 
-
-
 label Ryann_Lorem_LoremBrick:
 
 if ryannhasbrick == True:
