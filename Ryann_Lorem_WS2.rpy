@@ -10,7 +10,7 @@ menu:
 
     "[[Smash the window... again.]":
         $ ryannwindowssmashed +=1
-        m "It didnt take long to find a piece of rubble small enough to throw."
+        m "It didn't take long to find a piece of rubble small enough to throw."
         play sound "fx/glassimpact2.ogg"
         $ renpy.pause (0.5)
         show lorem relieved with dissolve
