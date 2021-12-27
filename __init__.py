@@ -7,6 +7,7 @@ class AWSWMod(Mod):
     version="v1.1"
     author="Ryann1706"
     nsfw=False
+    dependencies = ["MagmaLink"]
 
     def mod_load(self):
         ml = modinfo.get_mods()["MagmaLink"].import_ml()
